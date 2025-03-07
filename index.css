@@ -222,6 +222,26 @@ footer p{
 html {
     scroll-behavior: smooth;
 }
+@media (max-width: 768px) {
+    .hcontent {
+        flex-direction: column; /* Stack navigation items */
+        align-items: center;
+    }
+
+    .hlinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack text below image */
+    }
+
+    .education-item, .skills-grid, .contact-item {
+        width: 90%; /* Make sections fit smaller screens */
+        margin: 10px auto;
+    }
+}
 
 
 
